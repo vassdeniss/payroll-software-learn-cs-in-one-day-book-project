@@ -34,7 +34,7 @@ namespace payroll_software_learn_cs_in_one_day_book_project
 
         public override string ToString()
         {
-            return $"Staff member {StaffName} works {_hoursWorked} on a hourly rate of {_hourlyRate} with a total pay of {TotalPay}";
+            return $"\nStaff Member: {StaffName}\nWorked Hours: {HoursWorked}\nHourly Rate: {_hourlyRate}\nTotal Pay: {TotalPay}";
         }
     }
 }
