@@ -6,7 +6,7 @@ The program works by reading from a file in the root directory of the exe - "sta
 
 * `staffName, role` (admin, manager or any other role you think of)
 
-The program reads the file and then asks for year and month and hours worked for each staff member, in the end generating a payroll txt file for each staff member. If any member has worked less than 10 hours a summary.txt is saved for each of those members.
+The program reads the file and then asks for year and month and hours worked for each staff member, in the end generating a payslip txt file for each staff member. If any member has worked less than 10 hours a summary.txt is saved for each of those members.
 
 ## :flower_playing_cards: Visuals
 ![app.png](https://github.com/vassdeniss/payroll_software_learn_cs_in_one_day_book_project/blob/master/visuals/app.png)
