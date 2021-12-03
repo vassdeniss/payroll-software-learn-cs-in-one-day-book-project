@@ -9,12 +9,12 @@ The program works by reading from a file in the root directory of the exe - "sta
 The program reads the file and then asks for year and month and hours worked for each staff member, in the end generating a payroll txt file for each staff member. If any member has worked less than 10 hours a summary.txt is saved for each of those members.
 
 ## :flower_playing_cards: Visuals
-![staff.png](https://github.com/vassdeniss/payroll_software_learn_cs_in_one_day_book_project/blob/master/visuals/staff.png)
 ![app.png](https://github.com/vassdeniss/payroll_software_learn_cs_in_one_day_book_project/blob/master/visuals/app.png)
 ![andrej.png](https://github.com/vassdeniss/payroll_software_learn_cs_in_one_day_book_project/blob/master/visuals/andrej.png)
 ![dennis.png](https://github.com/vassdeniss/payroll_software_learn_cs_in_one_day_book_project/blob/master/visuals/dennis.png)
 ![mako.png](https://github.com/vassdeniss/payroll_software_learn_cs_in_one_day_book_project/blob/master/visuals/mako.png)
 ![ru.png](https://github.com/vassdeniss/payroll_software_learn_cs_in_one_day_book_project/blob/master/visuals/ru.png)
+![staff.png](https://github.com/vassdeniss/payroll_software_learn_cs_in_one_day_book_project/blob/master/visuals/staff.png)
 ![summary.png](https://github.com/vassdeniss/payroll_software_learn_cs_in_one_day_book_project/blob/master/visuals/summary.png)
 
 ## :desktop_computer: Created Using
