@@ -3,9 +3,7 @@ A payroll software made from the [C#: Learn C# in One Day and Learn It Well](htt
 
 ## :question: Usage
 The program works by reading from a file in the root directory of the exe - "staff.txt" - the structure of the file for each line is as follows:
-
-* `staffName, role` (admin, manager or any other role you think of)
-
+* staffName, role (admin, manager or any other role you think of)
 The program reads the file and then asks for year and month and hours worked for each staff member, in the end generating a payroll txt file for each staff member. If any member has worked less than 10 hours a summary.txt is saved for each of those members.
 
 ## :flower_playing_cards: Visuals
