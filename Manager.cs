@@ -13,8 +13,11 @@
         public override void CalculatePay()
         {
             base.CalculatePay();
-            Allowance = 1000;
-            if (HoursWorked > 160) TotalPay += Allowance;
+            if (HoursWorked > 160)
+            {
+                Allowance = 1000;
+                TotalPay += Allowance;
+            }
         }
 
         public override string ToString()
