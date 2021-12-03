@@ -21,9 +21,9 @@ namespace payroll_software_learn_cs_in_one_day_book_project
 
                     if (_result[1] == "Manager") _staffList.Add(new Manager(_result[0]));
                     else if (_result[1] == "Admin") _staffList.Add(new Admin(_result[0]));
-
-                    sr.Close();
+                    else _staffList.Add(new Worker(_result[0]));
                 }
+                sr.Close();
             }
             else Console.WriteLine("Error! File not found!");
 

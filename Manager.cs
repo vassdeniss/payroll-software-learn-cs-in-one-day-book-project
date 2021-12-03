@@ -19,7 +19,7 @@
 
         public override string ToString()
         {
-            return $"\nStaff Member: {StaffName}\nWorked Hours: {HoursWorked}\nHourly Rate: {_managerHourlyRate}\nTotal Pay: {TotalPay}";
+            return $"\nStaff Member: {StaffName}\nWorked Hours: {HoursWorked}\nHourly Rate: {_managerHourlyRate:C}\nTotal Pay: {TotalPay:C}";
         }
     }
 }

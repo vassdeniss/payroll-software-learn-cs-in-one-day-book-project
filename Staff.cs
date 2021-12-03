@@ -28,13 +28,13 @@ namespace payroll_software_learn_cs_in_one_day_book_project
 
         public virtual void CalculatePay()
         {
-            Console.WriteLine("Calculating Pay...");
+            Console.WriteLine("\nCalculating Pay...");
             TotalPay = BasicPay = _hoursWorked * _hourlyRate;
         }
 
         public override string ToString()
         {
-            return $"\nStaff Member: {StaffName}\nWorked Hours: {HoursWorked}\nHourly Rate: {_hourlyRate}\nTotal Pay: {TotalPay}";
+            return $"\nStaff Member: {StaffName}\nWorked Hours: {HoursWorked}\nHourly Rate: {_hourlyRate:C}\nTotal Pay: {TotalPay:C}";
         }
     }
 }
